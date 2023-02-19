@@ -1,0 +1,5 @@
+php artisan make:migration create_listings_table
+php artisan migrate
+
+run all seeders in seeders folder which has a mached factory in factories folder
+php artisan db:seed
